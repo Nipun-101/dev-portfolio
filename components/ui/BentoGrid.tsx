@@ -98,7 +98,7 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg ${ id === 2 ? "text-lg lg:text-2xl" : "text-lg lg:text-3xl"} max-w-96 font-bold z-10`}
+            className={`font-sans text-lg ${ id === 2 ? "text-sm lg:text-2xl" : "text-lg lg:text-3xl"} max-w-96 font-bold z-10`}
           >
             {title}
             {/* <br/>{subTitle && <span>{subTitle}</span>} */}
