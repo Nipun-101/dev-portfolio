@@ -39,7 +39,7 @@ const Hero = () => {
               words='Transforming Concepts into Seamless User Experiences'
               /> */}
 
-          <div className={'font-bold text-center text-[40px] md:text-5xl lg:text-6xl'}>
+          <div className={'font-bold text-center text-[30px] md:text-4xl lg:text-6xl'}>
             <div className="my-4">
               <div className=" dark:text-white text-black leading-snug tracking-wide">
                 Engineering Ideas into Seamless
