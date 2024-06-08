@@ -12,7 +12,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto pb-4",
         className
       )}
     >
@@ -44,7 +44,7 @@ export const BentoGridItem = ({
   spareImg?: string;
   subTitle?: string;
 }) => {
-  const leftLists = ["NextJS", "Javascript","NextJS", "Typescript"];
+  const leftLists = [ "Javascript","NextJS", "Typescript"];
   const rightLists = ["NestJs", "MongoDb", "ExpressJs"];
   return (
     <div

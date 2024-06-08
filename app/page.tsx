@@ -1,3 +1,4 @@
+import AiWobbleCard from "@/components/AiWobbleCard";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -13,6 +14,7 @@ export default function Home() {
         <FloatingNav navItems={[{name: 'Home', link: '/', icon : <FaHome/>}]}/>
         <Hero/>
         <Grid/>
+        <AiWobbleCard/>
       </div>
     </main>
   );

@@ -27,11 +27,11 @@ const Hero = () => {
             <div className='max-w-[89vw]
             md:max-w-2xl lg:max-w-[60vw] flex flex-col 
             items-center justify-center'>
-              <h2 className='uppercase 
+              {/* <h2 className='uppercase 
               tracking-widest text-center text-blue-100
               max-w-80'>
                 Dynamic Web Magic with Next.js
-              </h2>
+              </h2> */}
               <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words='Transforming Concepts into Seamless User Experiences'

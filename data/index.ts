@@ -19,7 +19,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm always open to hear about new ideas, create, and learn new things. Plus, I have a passion for JavaScript and a good cup of coffee.",
+      //title: "I'm always open to hear about new ideas, create, and learn new things. Plus, I have a passion for JavaScript and a good cup of coffee.",
+      title: "Always open to explore, innovate, and learn, driven by my passion for JavaScript and a great cup of coffee.",
       subTitle:"",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
