@@ -65,7 +65,7 @@ const Experience = () => {
                         <div className='lg:ms-5'>
                             <h1 className='
                             text-start text-xl md:text-2xl font-bold'>
-                                {'Download my CV '}<span className='text-blue-600 cursor-pointer underline'>{'here'}</span>
+                                {'Download my CV '}<a href={'/nipun-deleep-cv-2024.pdf'} download="nipun-deleep-cv-2024" className='text-blue-600 cursor-pointer underline'>{'here'}</a>
                             </h1>
                             <p className='
                             text-start text-white-100 mt-3 font-semibold'>

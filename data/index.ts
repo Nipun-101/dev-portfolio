@@ -193,7 +193,7 @@ export const navItems = [
       title: "Software Engineer - Buddiz AI",
       companyTitle: "Buddiz AI",
       companyWebsite: "https://www.buddiz.ai/",
-      desc: "A member of the five-person development team that built the next-generation AI-based EdTech platform ",
+      desc: "A member of the development team that built the next-generation AI-based EdTech platform ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp4.svg",
     },
@@ -210,13 +210,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url:"https://github.com/Nipun-101"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/instagram.svg",
+      url:"https://www.instagram.com/_nipu__"
     },
     {
       id: 3,
       img: "/link.svg",
+      url:"https://www.linkedin.com/in/nipun-deleep101"
     },
   ];

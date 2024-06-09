@@ -1,5 +1,6 @@
 import AiWobbleCard from "@/components/AiWobbleCard";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -17,6 +18,7 @@ export default function Home() {
         <Grid/>
         <AiWobbleCard/>
         <Experience/>
+        <Footer/>
       </div>
     </main>
   );
