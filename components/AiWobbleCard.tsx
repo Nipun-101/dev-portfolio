@@ -6,7 +6,7 @@ const AiWobbleCard = () => {
   return (
     <>
     <h1 className='heading' id="ai-section">
-    What's new in <span className='text-purple'> AI</span>
+    What&apos;s new in <span className='text-purple'> AI</span>
     </h1>
     {/* py-20 suitable for below div if you remove above h1 */}
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full pt-12 pb-20" > 
