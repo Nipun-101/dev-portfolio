@@ -4,7 +4,13 @@ import Image from 'next/image'
 
 const AiWobbleCard = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-24 mb-16" id="ai-section">
+    <>
+    <h1 className='heading' id="ai-section">
+    What's new in <span className='text-purple'> AI</span>
+    </h1>
+    {/* py-20 suitable for below div if you remove above h1 */}
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full pt-12 pb-20" > 
+      
     <WobbleCard
       containerClassName="col-span-1 lg:col-span-2 h-full bg-blue-900 min-h-[500px] lg:min-h-[300px]"
       className=""
@@ -62,6 +68,7 @@ const AiWobbleCard = () => {
       />
     </WobbleCard>
   </div>
+  </>
   )
 }
 
