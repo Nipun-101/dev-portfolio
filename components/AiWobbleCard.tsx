@@ -47,9 +47,9 @@ const AiWobbleCard = () => {
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
             Bring your own Data to Azure OpenAI
           <br />
-            Fine tuned Chatbot models
+          Fine-Tuned AI Models 
           <br />
-            Document Intelligence
+          Document Intelligence, OCR & Vision AI   
           <br />
           Speech to text documentation
           <br />

@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 import { FlipWords } from './ui/FlipWords'
 
 const Hero = () => {
-  const words = ["Web Applications", "Chatbots", "User Interfaces"];
+  const words = ["Web Applications", "Chatbots", "User Interfaces", "AI Solutions"];
   return (
     <div className='pb-20 pt-36'>
       <div>
